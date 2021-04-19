@@ -1,6 +1,6 @@
 <?php
 $mas = array();
-$sum = $mas[0];
+$sum = 0;
 for($i=0;$i<50;$i++){$mas[]=rand(0,9999);
     echo $mas[$i].' ';
     $sum+=$mas[$i];
